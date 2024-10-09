@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mainBody {
+  background-color: #ffffff;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 45px;
+}
+.section-01,
+.box {
+  background-color: rgb(102, 120, 120);
+}
+li,
+.boxContainer {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.section-01 {
+  color: #ffffff;
+}
+.navBar,
+li,
+button {
+  font-size: 11px;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.navBar li:hover {
+  border-bottom: 4px solid rgb(209, 203, 203);
+}
+.logo-container img {
+  padding-left: 8px;
+}
+.logo-container p {
+  font-size: 6px;
+}
+nav button {
+  border: none;
+  background-color: #ffffff;
+  padding: 0 7px;
+  border-radius: 3px;
+}
+nav button:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.sectInSection {
+  margin: 50px;
+  padding: 50px;
+}
+/*======This is for the playbutton============= */
+.play {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-left: 43%;
+  margin-right: 6px;
+  background-color: inherit;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+}
+.play::before {
+  content: "";
+  position: absolute;
+  border: 3px solid white;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* ===================================================================== */
+
+.sect {
+  text-align: center;
+}
+h1.sect {
+  font-size: 40px;
+}
+.sectInSection h2.sect {
+  padding-bottom: 20px;
+}
+.bigBackground {
+  color: black;
+  padding-top: 60px;
+}
+.boxSection {
+  background-color: #c8c7c7;
+  min-height: 500px;
+}
+.boxIn {
+  margin-left: 120px;
+}
+.boxContainer {
+  margin: 70px 10px;
+  width: 42%;
+  height: 300px;
+}
+.box {
+  height: 140px;
+  width: 260px;
+  padding: 15px;
+  margin-left: 100px;
+}
+.box-text {
+  padding: 20px 0;
+}
+/* =================for buttons=============== */
+section.boxContainer ul li {
+  margin-left: 160px;
+}
+
+.button {
+  width: 120px;
+  padding: 10px 15px;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-top: 15px;
+}
+.btn {
+  padding-left: 23px;
+  width: 100px;
+}
+.boxContainer .button:hover {
+  background-color: white;
+}
+.volunteerButton {
+  margin-left: 450px;
+}
+/* ========footer========== */
+footer {
+  background-color: #020228;
+  opacity: 0.8;
+  color: white;
+  padding: 10px;
+}
+.leftDiv {
+  float: left;
+  margin-left: 10px;
+}
+.rightDiv {
+  float: right;
+  margin-right: 10px;
+}
+.linebreak {
+  border-top: 1px solid gainsboro;
+  margin: 2px 10px;
+}
+div.leftDiv span a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.makethisgrayandsmall {
+  font-size: 10px;
+  color: gray;
+}
+.footerImg {
+  float: right;
+  margin-top: 10px;
+}
